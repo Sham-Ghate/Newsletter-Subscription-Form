@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter Subscription</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Level Up Your Frontend Skills</h1>
+    <p>Sign up for our free newsletter to receive weekly coding challenges that will help you improve your frontend
+      development skills.</p>
+    <form id="subscriptionForm">
+      <div class="input-group">
+        <input type="email" id="email" placeholder="Enter your email address" required>
+        <button type="submit">Subscribe</button>
+      </div>
+      <label>
+        <input type="checkbox" id="agree" required>
+        By checking this box, you agree to receive our weekly newsletter containing coding challenges, tips, and other related content. You may unsubscribe from the newsletter at any time
+      </label>
+    </form>
+    <p id="error-message" class="hidden error"></p>
+    <p id="success-message" class="hidden success"></p>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
